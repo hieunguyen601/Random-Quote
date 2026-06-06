@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;500&display=swap"
+      rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Random Quote</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="author" id="author">George Bernard Shaw</h2>
+          <div class="tags" id="tags">
+            <span class="tag">Famous Quotes</span>
+            <span class="tag">Inspirational</span>
+          </div>
+        </div>
+        <blockquote class="quote" id="quote">
+          "Learn from yesterday, live for today, hope for tomorrow."
+        </blockquote>
+      </div>
+
+      <div class="actions">
+        <button type="button" class="btn" id="random-btn">
+          Random
+          <img src="resources/regroup.svg" alt="" class="btn-icon">
+        </button>
+        <button type="button" class="btn" id="share-btn">
+          Share
+          <img src="resources/link.svg" alt="" class="btn-icon">
+        </button>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
